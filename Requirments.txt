@@ -1,0 +1,4 @@
+requests==2.21.0
+selenium== 3.141.0
+DateTime==4.3
+beautifulsoup4==4.9.3
