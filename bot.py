@@ -3,6 +3,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
+from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.support import expected_conditions as expc
 from bs4 import BeautifulSoup
 from datetime import datetime
@@ -57,7 +58,7 @@ chrome_driver = os.getcwd() +"\\chromedriver.exe"
 #Enter the Picode
 pin='PINCODE HERE (Str Type)'
 
-driver = webdriver.Chrome(options=chrome_options, executable_path=chrome_driver)
+driver = webdriver.Chrome(options=chrome_options, executable_path=ChromeDriverManager().install())
 
 #Initialising driver and Enter URL of Page
 driver.get('URL HERE')
