@@ -24,6 +24,6 @@ Generally Flipkart doesn't provide NOTIFY button when the product is not availab
 - Paste in bot.py
 - You can use telegram too if you want
 
-## Run the bot
-- Type `python bot.py`
+## Run the Bot
+- Better to Run the script in IDE if you waana run bot on Local Server (to distinguish Driver Shell and Python Shell) 
 - If you wanna run bot on cloud slightly change the script based on cloud requirments
