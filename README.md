@@ -21,7 +21,7 @@ Generally Flipkart doesn't provide NOTIFY button when the product is not availab
 - Create a server
 - Create a webhook and name the bot
 - Copy the webhook URL
-- Paste in FK_Bot.py
+- Paste in bot.py
 - You can use telegram too if you want
 
 ## Run the bot
